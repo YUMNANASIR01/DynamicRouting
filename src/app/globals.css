@@ -54,3 +54,33 @@ body{
   box-shadow: 3px,4px,5px,6px rgb(176, 176, 159);
   color: khaki;
 }
+.id1{
+  background-color: rgb(131, 27, 18);
+  padding: 10px 10px 10px 10px;
+  color: white;
+  border: 5px solid sandybrown;
+}
+.id2{
+  background-color: rgb(61, 70, 70);
+  padding: 10px 10px 10px 10px;
+  color: white;
+  border: 5px solid rgb(232, 110, 4);
+}
+.id3{
+  background-color: rgb(51, 42, 74);
+  padding: 10px 10px 10px 10px;
+  color: white;
+  border: 5px solid rgb(124, 148, 7);
+}
+.id4{
+  background-color: rgb(6, 106, 9);
+  padding: 10px 10px 10px 10px;
+  color: white;
+  border: 5px solid rgb(17, 183, 30);
+}
+.id5{
+  background-color: rgb(171, 174, 203);
+  padding: 10px 10px 10px 10px;
+  color: rgb(153, 10, 10);
+  border: 5px solid rgb(78, 5, 74);
+}

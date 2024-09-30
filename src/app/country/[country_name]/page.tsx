@@ -31,7 +31,7 @@ function DynamicCountryPage({params}:any) {
     if (params.country_name == "canada") {
   return (
     <>
-    <ul>
+    <ul className="id1">
      <li><h1 className="mt-30 mb-20 font-extrabold">I am Dynamic Country Page</h1></li> 
       <br />
       <li><h2  className="  items-center text-center font-bold">Name : {params.country_name}🚩</h2></li> 
@@ -44,7 +44,7 @@ function DynamicCountryPage({params}:any) {
 else if (params.country_name == "germany") {
     return (
       <>
-      <ul>
+      <ul className="id2">
         <h1 className="mt-30 mb-20 font-extrabold">I am Dynamic Country Page</h1><br /> 
        <li><h2 className=" items-center text-center font-bold">Name : {params.country_name} 🏳‍🌈</h2></li>
        <li><h2  className=" items-center text-center font-bold">Populations : {data.germany.Populations}</h2></li>
@@ -56,7 +56,7 @@ else if (params.country_name == "germany") {
  else if (params.country_name == "japan") {
     return (
       <>
-      <ul>
+      <ul  className="id3">
       <li> <h1 className="mt-30 mb-20 font-extrabold">I am Dynamic Country Page</h1></li>
       <br />
       <li><h2  className=" items-center text-center font-bold">Name : {params.country_name}🏳</h2></li>
@@ -69,7 +69,7 @@ else if (params.country_name == "germany") {
   else if (params.country_name == "pakistan") {
     return (
       <>
-      <ul>
+      <ul className="id4">
       <li><h1 className="mt-30 mb-20 font-extrabold">I am Dynamic Country Page</h1></li>
         <br />
         <li><h2  className=" items-center text-center font-bold">Name : {params.country_name}🏳</h2></li>
@@ -82,7 +82,7 @@ else if (params.country_name == "germany") {
   else if (params.country_name == "turkey") {
     return (
       <>
-      <ul>
+      <ul className="id5">
       <li><h1 className="mt-30 mb-20 font-extrabold">I am Dynamic Country Page</h1></li>
         <br />
         <li><h2 className="items-center text-center font-bold">Name : {params.country_name}🚩</h2></li>
