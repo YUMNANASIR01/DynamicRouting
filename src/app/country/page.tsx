@@ -5,14 +5,14 @@ function Country() {
   return (
     <>
     <ul>
-          <li><h1 className=" font-extrabold mb-7">Click Below To Visit Country 👇</h1></li>
+          <hr /><li><h1 className="bg-slate-500 font-extrabold mb-7 items-center mr-11">Click Below To Visit Country 👇</h1></li><hr />
         
-          <li> <Link className=" font-bold  " href={"/country/canada"}><h2>🔹Canada</h2></Link></li>
-          <li><Link className=" font-bold " href={"/country/germany"}><h2>🔹Germany</h2></Link></li>
-          <li> <Link className=" font-bold" href={"/country/japan"}><h2>🔹Japan</h2></Link></li>
-          <li> <Link className=" font-bold" href={"/country/pakistan"}><h2>🔹Pakistan</h2></Link></li>
-          <li><Link className=" font-bold" href={"/country/turkey"}><h2>🔹Turkey</h2></Link></li>
-      </ul>
+         <hr /> <li className="bg-lime-600"><hr />  <Link className=" font-bold  " href={"/country/canada"}><h2>🔹Canada</h2></Link></li><hr />
+         <hr />  <li className="bg-lime-600"><hr /> <Link className=" font-bold " href={"/country/germany"}><h2>🔹Germany</h2></Link></li><hr />
+         <hr /> <li className="bg-lime-600"><hr />  <Link className=" font-bold" href={"/country/japan"}><h2>🔹Japan</h2></Link></li><hr />
+         <hr /> <li className="bg-lime-600"><hr />  <Link className=" font-bold" href={"/country/pakistan"}><h2>🔹Pakistan</h2></Link></li><hr />
+         <hr /> <li className="bg-lime-600"><hr /> <Link className=" font-bold" href={"/country/turkey"}><h2>🔹Turkey</h2></Link></li><hr />
+         <hr /> </ul> <hr />
     </>
    
   )
